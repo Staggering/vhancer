@@ -101,7 +101,7 @@ Typer.speed=10;
 Typer.file="Vhancer.txt";
 Typer.init();
  
-var timer = setInterval("t();", 30);
+var timer = setInterval("t();", 5);
 function t() {
 	Typer.addText({"keyCode": 123748});
 	
