@@ -1,10 +1,10 @@
 <span id="a">Telefonmodeller:</span>
 
 <span id="a">Huawei:</span>
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/huawei-bright.svg" width="250" height="59" title="Huawei" alt="Hua"></a> <p>
+<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/huawei-bright.svg" width="59" height="59" title="Huawei" alt="Hua"></a> <p>
 
 <span id="a">Vivo:</span>
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/vivo-bright.svg" width="250" height="59" title="Vivo" alt="Vivo"></a> <p>
+<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/vivo-bright.svg" width="59" height="59" title="Vivo" alt="Vivo"></a> <p>
 
 <span id="a">Xiaomi:</span>
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/xiaomi-dark.svg" width="59" height="59" title="Xiaomi" alt="Mi"></a> <p>
+<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/xiaomi-bright.svg" width="59" height="59" title="Xiaomi" alt="Mi"></a> <p>
