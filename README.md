@@ -1,5 +1,5 @@
-Vhancer, by Teebag
+Vhancer by Teebag
 
 Thanks to:
-# CodeNerve.github.io
+CodeNerve
 Terminal based portfolio website for CodeNerve
