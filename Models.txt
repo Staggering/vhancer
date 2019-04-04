@@ -1,3 +1,5 @@
 <span id="a">Telefonmodeller:</span>
 
 <br> <a href="https://discordapp.com/invite/3HAFFsV">Discord-kanal</a> <br> <a href="https://weareimint.com">Imints hemsida</a> <br> <a href="https://en.wikipedia.org/wiki/IMINT_Image_Intelligence_AB">Imint på Wikipedia</a> <br> <a href="https://staggering.github.io/vhancer/models.html">Telefoner med Vidhance</a> </p>
+
+<a href="https://weareimint.com"><img src="https://weareimint.com/content/uploads/2017/10/Huawei--250x59.png" width="250" height="59" title="Huawei" alt="Hua"></a>
