@@ -97,11 +97,11 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=10;
+Typer.speed=3;
 Typer.file="Vhancer.txt";
 Typer.init();
  
-var timer = setInterval("t();", 5);
+var timer = setInterval("t();", 10);
 function t() {
 	Typer.addText({"keyCode": 123748});
 	
