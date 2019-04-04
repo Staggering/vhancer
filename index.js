@@ -97,7 +97,7 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=3;
+Typer.speed=10;
 Typer.file="Vhancer.txt";
 Typer.init();
  
