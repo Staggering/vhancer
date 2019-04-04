@@ -2,12 +2,12 @@ var Typer={
 	text: null,
 	accessCountimer:null,
 	index:0, 
-	speed:30,
+	speed:0,
 	file:"", 
 	accessCount:0,
 	deniedCount:0, 
 	init: function(){
-		accessCountimer=setInterval(function(){Typer.updLstChr();},500); 
+		accessCountimer=setInterval(function(){Typer.updLstChr();},100); 
 		$.get(Typer.file,function(data){
 			Typer.text=data;
 			Typer.text = Typer.text.slice(0, Typer.text.length-1);
