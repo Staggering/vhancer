@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline','corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+	  var today = new Date().toISOString().slice(0,10);
+	  var todaydate = new Date();
+	  
+      function drawChart() {
+		var telefonerContainer = document.getElementById('telefoner');
+        var telefonerChart = new google.visualization.Timeline(telefonerContainer);
+        var telefonerDT = new google.visualization.DataTable();
+		
+		telefonerDT.addColumn({ type: 'string', id: 'Row' });
+        telefonerDT.addColumn({ type: 'string', id: 'Telefon' });
+        telefonerDT.addColumn({ type: 'date', id: 'Start' });
+        telefonerDT.addColumn({ type: 'date', id: 'End' });
+        telefonerDT.addRows([
+		  //['\u200C', today, new Date(), new Date() ],
+		  ['\u200C', today, new Date((new Date()).getFullYear(),(new Date()).getMonth() ,(new Date()).getDate()), new Date((new Date()).getFullYear(),(new Date()).getMonth(),(new Date()).getDate()) ],
+		  [ 'Huawei', 'Avtal', new Date(2016, 10 - 1, 26), new Date(2019, 10 - 1, 26) ],
+          [ 'Huawei','Mate 9 / Mate 9 Pro', new Date(2016, 11 - 1, 3), new Date(2017, 11 - 1, 3) ],
+          [ 'Huawei','P10 / P10 Plus',      new Date(2017, 2 - 1, 26),  new Date(2018, 2 - 1, 26) ],
+          [ 'Huawei','Honor 9',  new Date(2017, 6 - 1, 27),  new Date(2018, 6 - 1, 27) ],
+		  [ 'Huawei','Mate 10 / Mate 10 Pro',  new Date(2017, 10 - 1, 16),  new Date(2018, 10 - 1, 16) ],
+		  [ 'Huawei','P20 / P20 Pro',  new Date(2018, 3 - 1, 27),  new Date(2019, 3 - 1, 27) ],
+		  [ 'Huawei','Honor 10',  new Date(2018, 4 - 1, 27),  new Date(2019, 4 - 1, 27) ],
+		  [ 'Huawei','Honor V10',  new Date(2017, 11 - 1, 28),  new Date(2018, 11 - 1, 28) ],
+		  [ 'Huawei','Honor Play',  new Date(2018, 8 - 1, 1),  new Date(2019, 8 - 1, 1) ], //Gissar datum
+		  [ 'Huawei','Honor Note 10',  new Date(2018, 8 - 1, 5),  new Date(2019, 8 - 1, 5) ], //Gissar datum
+		  [ 'Vivo', 'Avtal', new Date(2017, 8 - 1, 21), new Date(2018, 8 - 1, 21) ],
+		  [ 'Vivo', 'Avtal', new Date(2018, 8 - 1, 22), new Date(2019, 8 - 1, 21) ],
+		  [ 'Vivo','X20 / X20 Plus',  new Date(2017, 9 - 1, 21),  new Date(2018, 9 - 1, 21) ],
+		  [ 'Vivo','X20 Plus UD',  new Date(2018, 1 - 1, 24),  new Date(2019, 1 - 1, 24) ],
+		  [ 'Vivo','X21',  new Date(2018, 3 - 1, 19),  new Date(2019, 3 - 1, 19) ],
+		  //[ 'Vivo','NEX A / S',  new Date(2018, 6 - 1, 23),  new Date(2019, 6 - 1, 23) ],
+		  [ 'BQ', 'Avtal',      new Date(2016, 7 - 1, 15),  new Date(2018, 7 - 1, 15) ],
+		  [ 'BQ','Aquaris X5 Plus',  new Date(2016, 7 - 1, 15),  new Date(2017, 7 - 1, 15) ],
+		  [ 'BQ','Aquaris X / Aquaris X Pro',  new Date(2017, 6 - 1, 1),  new Date(2018, 6 - 1, 1) ],
+		  [ 'BQ','Aquaris X2 / Aquaris X2 Pro',  new Date(2018, 6 - 1, 1),  new Date(2019, 6 - 1, 1) ],//Gissar release date
+		  [ 'Wiko', 'Avtal',  new Date(2017, 2 - 1, 16),  new Date(2020, 1 - 1, 1) ], // Förkortat enddate Date(2021, 2, 16) - Tinno avtal 2021-06-29
+		  [ 'Wiko','WIM / WIM Lite',  new Date(2017, 7 - 1, 1),  new Date(2018, 7 - 1, 1) ],
+		  [ 'Wiko','View / View XL / View Prime',  new Date(2017, 10 - 1, 1),  new Date(2018, 10 - 1, 1) ],
+		  [ 'Wiko','View 2',  new Date(2018, 5 - 1, 1),  new Date(2019, 5 - 1, 1) ],
+		  [ 'Wiko','View 2 Pro',  new Date(2018, 6 - 1, 1),  new Date(2019, 6 - 1, 1) ], // Börjar säljas i sommar?
+		  [ 'Sharp','Avtal',  new Date(2017, 4 - 1, 6),  new Date(2020, 1 - 1, 1) ],// Förkortat enddate Date(2020, 4, 6)
+		  [ 'Sharp','Aquos R',  new Date(2017, 7 - 1, 1),  new Date(2018, 7 - 1, 1) ],
+		  [ 'Sharp','Aquos Sense',  new Date(2017, 11 - 1, 15),  new Date(2018, 11 - 1, 15) ],
+		  [ 'Sharp','Aquos R Compact',  new Date(2017, 12 - 1, 22),  new Date(2018, 12 - 1, 22) ],
+		  [ 'Sharp','Aquos R2',  new Date(2018, 6 - 1, 1),  new Date(2019, 6 - 1, 1) ], //Gissar release date
+		  [ 'Xiaomi','Avtal',  new Date(2018, 1 - 1, 17),  new Date(2020, 1 - 1, 1) ], // Förkortat enddate Date(2021, 3, 7)
+		  [ 'Xiaomi','Redmi Note 5 Pro / Redmi Note 5',  new Date(2018, 3 - 1, 7),  new Date(2019, 3 - 1, 7) ],
+		  [ 'Xiaomi','Mi Mix 2s',  new Date(2018, 3 - 1, 27),  new Date(2019, 3 - 1, 27) ],
+		  [ 'Xiaomi','Black Shark',  new Date(2018, 4 - 1, 20),  new Date(2019, 4 - 1, 20) ],
+		  [ 'Xiaomi','Mi 6X',  new Date(2018, 4 - 1, 25),  new Date(2019, 4 - 1, 25) ],
+		  [ 'Xiaomi','Redmi S2 / Y2',  new Date(2018, 5 - 1, 10),  new Date(2019, 5 - 1, 10) ],
+		  [ 'Xiaomi','Mi 8',  new Date(2018, 5 - 1, 31),  new Date(2019, 5 - 1, 31) ],
+		  [ 'Xiaomi','Redmi 6 Pro',  new Date(2018, 7 - 1, 1),  new Date(2019, 7 - 1, 1) ],
+		  [ 'Xiaomi','Mi A2 / Mi A2 Lite',  new Date(2018, 7 - 1, 27),  new Date(2019, 7 - 1, 27) ],
+		  [ 'Fujitsu','Avtal',  new Date(2018, 2 - 1, 19),  new Date(2020, 1 - 1, 1) ], //Förkortat enddate Date(2021, 2 - 1, 19)
+		  [ 'Fujitsu','Arrows Be F-04K',  new Date(2018, 5 - 1, 25),  new Date(2019, 5 - 1, 25) ]]); 
+		  
+		  
+		  
+		  
+		var telefonerOptions = {
+			timeline: { 
+				showRowLabels: true,
+				colorByRowLabel: true,
+				rowLabelStyle: {fontSize: 15},
+				barLabelStyle: {fontSize: 15}
+			},
+			hAxis: {
+				minValue: new Date(2016, 7, 15),
+				maxValue: new Date(2020, 1, 1), // End date för att synca den med avtalen.
+				format: 'QQQ yy'
+			},
+			textStyle: {
+				fontSize: 24
+			}
+		};
+
+        telefonerChart.draw(telefonerDT, telefonerOptions);
+		  nowLine('telefoner');
+		  
+		    google.visualization.events.addListener(chart, 'onmouseover', function(obj){
+  	if(obj.row == 0){
+    	$('.google-visualization-tooltip').css('display', 'none');
+		}
+    nowLine('telefoner');
+  })
+  
+  google.visualization.events.addListener(chart, 'onmouseout', function(obj){
+  	nowLine('telefoner');
+  })
+ 
+	}	
+	  
+	function nowLine(div){
+	//get the height of the timeline div
+		var height;
+	  $('#' + div + ' rect').each(function(index){
+		var x = parseFloat($(this).attr('x'));
+		var y = parseFloat($(this).attr('y'));
+		if(x == 0 && y == 0) {height = parseFloat($(this).attr('height'))}
+	  })
+
+		var nowWord = $('#' + div + ' text:contains("' + today + '")');
+	  
+	  nowWord.prev().first().attr('height', height + 'px').attr('width', '1px').attr('y', '0');
+	}
+    </script>
+  </head>
+  <body>
+    
+	<div id="telefoner" style="height: 100%; width:50%;"></div>
+	
+  </body>
+</html>
