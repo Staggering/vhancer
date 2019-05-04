@@ -11,6 +11,6 @@ Detta är en informations- och rykteshemsida om bolaget Imint Image Intelligence
 
 Har du önskemål om ändringar på sidan, vänligen kontakta mig på Discord. </p>
 
-<span id="a">//Teebag</span>
+<span id="a">/Teebag</span>
 
 
