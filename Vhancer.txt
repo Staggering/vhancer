@@ -1,4 +1,4 @@
-<span id="a">-Vhancer-</span>
+<span id="a">-Vhancer-</span> <font size="+2">This is bigger text.</font>
 
 <span id="a">En informations- och rykteskälla om Imint Image Intelligence AB & Vidhance©</span>
 
