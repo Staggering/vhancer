@@ -1,8 +1,6 @@
 <font size="+3">Vhancer</font>
 
-<span id="a">En informations- och rykteskälla om Imint Image Intelligence AB & Vidhance©</span>
-
-<span id="a">Admin</span>:<span id="b"></span><span id="c">$</span> <!-- kjsdfhkjdhsfkjdshfkj -->Teebag@discord<br/><br/>
+<span id="a">En informations- och rykteskälla om Imint Image Intelligence AB & Vidhance©</span><br/>
 
 <span id="a">Nyttiga länkar:</span>
 <br> <a href="https://discordapp.com/invite/3HAFFsV">Discord-kanal</a> <br> <a href="https://weareimint.com">Imints hemsida</a> <br> <a href="https://en.wikipedia.org/wiki/IMINT_Image_Intelligence_AB">Imint på Wikipedia</a> <br> <a href="https://staggering.github.io/vhancer/vidhance_timeline.html">Telefoner med Vidhance</a> <br> <a href="https://spotlightstockmarket.com/sv/market-overview/nyheter/?companyId=1546">PM & Nyheter (Spotlight)</a> </p>
@@ -11,6 +9,6 @@ Detta är en informations- och rykteshemsida om bolaget Imint Image Intelligence
 
 Har du önskemål om ändringar på sidan, vänligen kontakta mig på Discord. </p>
 
-<span id="a">/Teebag</span>
+<span id="a">Admin</span>:<span id="b"></span><span id="c">$</span> <!-- kjsdfhkjdhsfkjdshfkj -->Teebag@discord<br/>
 
 
