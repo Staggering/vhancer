@@ -1,7 +1,0 @@
-<span id="a">Telefonmodeller:</span><br>
-
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/huawei-bright.svg" width="59" height="59" title="Huawei" alt="Hua"></a> <p>
-
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/vivo-bright.svg" width="59" height="59" title="Vivo" alt="Vivo"></a> <p>
-
-<a href="https://weareimint.com"><img src="http://imintinvestors.com/css/customer/xiaomi-bright.svg" width="59" height="59" title="Xiaomi" alt="Mi"></a> <p>
